@@ -1,0 +1,14 @@
+#last_news_top 
+{
+	background: #14435d;
+	color: white;
+	width: 500px;
+	position: relative;
+}
+
+#last_news_bottom
+{
+	background: #dae4ea;
+	position: relative;
+	width: 500px;
+}
