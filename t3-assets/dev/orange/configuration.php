@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 a {
-  color: #f80;
+  color: #14435d;
   text-decoration: none;
 }
 a:hover {
@@ -229,23 +229,37 @@ hr.hr-condensed {
 #teste2
 {
 background-image: linear-gradient(to top,#FFFFFF,#B3B0B0);  
-height: 400px;
+height: 390px;
 }
 
 #last_news_top 
 {
-	background: #14435d;
-	color: white;
+	color: #14435d;
 	width: 250px;
 	position: relative;
 	padding: 0px;
+  border-radius:7px;
+  font-size:15px;
 }
 
 #last_news_bottom
 {
-	background: #ebf6fc;
+	background: #ddeef8;
 	position: relative;
 	width: 250px;
 	margin: 0px;
+  border-radius:7px;
 }
 
+#tremsuburbio
+{
+  background: #ddeef8;
+  position: relative;
+  width:250px;
+  border-radius:7px;
+}
+
+#featuredarticles
+{
+  background:red;
+}

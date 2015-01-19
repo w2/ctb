@@ -80,7 +80,7 @@ defined('_JEXEC') or die;
 	<?php endforeach; ?>
 <?php else : ?>
 	<div id="last_news_top"><h3>Mais Notícias</h3></div>
-	<div id="last_news_bottom"> 
+	<div id="last_news_bottom" class="lnb"> 
 	<ul>
 	<?php $contador = 0; ?>
 	<?php foreach ($list as $item) : ?>

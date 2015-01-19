@@ -244,11 +244,15 @@ height: 390px;
 
 #last_news_bottom
 {
-	background: #ddeef8;
+	background: #006aa3;
 	position: relative;
 	width: 250px;
 	margin: 0px;
   border-radius:7px;
+}
+.lnb a 
+{
+color:#ffffff;  
 }
 
 #tremsuburbio
@@ -256,5 +260,18 @@ height: 390px;
   background: #ddeef8;
   position: relative;
   width:250px;
+  border-radius:7px;
+}
+
+#featuredarticles
+{
+  background-color:#da1b3b;
+  border-radius:7px;
+  width:250px;
+  color:white;
+  font-size:12px;
+}
+#imgborder
+{
   border-radius:7px;
 }
