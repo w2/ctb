@@ -1,0 +1,98 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* @license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+body {
+	font-size: 12px;
+}
+.clearafter,
+ul.menu-treemenu li,
+ul.list-arrow-red li,
+ul.list-arrow-blue li,
+ul.list-arrow-green li {
+	height: 1%;
+}
+#jsn-puser1_grid2,
+#jsn-puser2_grid2 {
+	overflow: hidden;
+}
+blockquote {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+pre {
+	width: 100%;
+}
+#jsn-pcentercol {
+	overflow: hidden;
+}
+/* ======================================== BREADCRUMBS ======================================== */
+span.pathway a,
+span.pathway span {
+	background-position: right -316px;
+}
+body.jsn-direction-rtl span.pathway a,
+body.jsn-direction-rtl span.pathway span {
+	margin-right: 0;
+	background-position: 2px -316px;
+}
+/* ======================================== READMORE LINK ======================================== */
+a.readon,
+a.readon span {
+	cursor: pointer;
+	display: inline;
+}
+/* ============================================================ MENU STYLES ============================================================ */
+#jsn-menu {
+	padding-bottom: 0;
+}
+/* ======================================== DROP-DOWN MAIN-MENU ======================================== */
+/* ==================== MAIN LEVEL ==================== */
+ul#base-mainmenu li {
+	position: relative;
+	float: left;
+}
+ul#base-mainmenu li.active {
+	padding-bottom: 3px;
+}
+ul#base-mainmenu li.active a {
+	background-image: none;
+	background-color: #D24A17;
+}
+ul#base-mainmenu li.active ul a {
+	background-color: transparent;
+}
+ul#base-mainmenu li.sfhover a {
+	margin-top: -1px;
+	border-top: 1px solid #fff;
+}
+ul#base-mainmenu li.sfhover ul a {
+	border-top: none;
+	margin: 0;
+}
+ul#base-mainmenu li a.jsn-separator {
+	border-top: 1px solid #fff;
+}
+ul#base-mainmenu li a span {
+	display: inline;
+}
+ul#base-mainmenu ul li a.jsn-separator {
+	border: none;
+}
+ul#base-mainmenu ul li a span {
+	display: block;
+}
+ul#base-mainmenu li span.jsn-menutitle,
+ul#base-mainmenu li span.jsn-menudescription {
+	display: block;
+}
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul,
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul li.sfhover ul,
+body.jsn-direction-rtl ul#base-mainmenu li.sfhover ul li.sfhover ul li.sfhover ul {
+	right: -1px;
+}
+body.jsn-direction-rtl ul#base-mainmenu li.active {
+	padding-bottom: 0;
+}

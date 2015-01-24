@@ -1,0 +1,163 @@
+/**
+* author    JoomlaShine.com http://www.joomlashine.com
+* copyright Copyright (C) 2006 - 2009 JoomlaShine.com. All rights reserved.
+* license   Copyrighted Commercial Software
+* This file may not be redistributed in whole or significant part.
+*/
+#jsn-master {
+	background-color: #01324c;
+	/*background-image: url(../images/red/background.png);*/
+}
+#jsn-footer_inner2 {
+	/*border-top: 2px solid #B0A88E;*/
+}
+/* ============================== MENU STYLES  ============================== */
+/* ==================== DROP-DOWN MAIN MENU ==================== */
+ul#base-mainmenu ul {
+	/*background: url(../images/red/submenu-bg.png) repeat-x left bottom;*/
+   	/* background: #074A83;*/ /*ALTERACAO BG*/
+   	background: url(../images/bkmenu.png);  /*ALTERACAO BG*/
+}
+ul#base-mainmenu ul li {
+	border-bottom: 1px solid #0c6293;
+}
+/* ---------- HOVER STATE ---------- */
+ul#base-mainmenu ul li.sfhover a,
+ul#base-mainmenu ul li.sfhover li.sfhover a,
+ul#base-mainmenu ul li.sfhover li.sfhover li.sfhover a {
+	background-color: #074a83;
+}
+ul#base-mainmenu li.sfhover a {
+	/*background: url(../images/red/mainmenu-bg.png) repeat-x left -50px;*/ /*ALTERACAO BG*/
+	background: #074a83;
+}
+ul#base-mainmenu li.active {
+	background:  url(../images/red/mainmenu-active-arrow.png) center bottom no-repeat;
+}
+ul#base-mainmenu li.active a {
+	background: url(../images/red/mainmenu-bg.png) repeat-x left top;
+}
+/* =============== TREE MENU =============== */
+ul.menu-treemenu li a {
+	background-position: left -95px;
+}
+body.jsn-direction-rtl ul.menu-treemenu li a {
+	background-position: right -95px;
+}
+div.richbox-1 ul.menu-treemenu li a:hover,
+div.richbox-1 ul.menu-treemenu li a.current {
+	background-color: #A33912;
+}
+div.richbox-2 ul.menu-treemenu li a:hover,
+div.richbox-2 ul.menu-treemenu li a.current {
+	background-color: #827859;
+}
+div.richbox-3 ul.menu-treemenu li a:hover,
+div.richbox-3 ul.menu-treemenu li a.current {
+	background-color: #3E3A2D;
+}
+
+div.richbox-4 ul.menu-treemenu li a {	background-color: #004a71; }
+div.richbox-4 ul.menu-treemenu li a:hover,
+div.richbox-4 ul.menu-treemenu li a.current {
+	background-color: #a90115;
+}
+
+div.solid-1 ul.menu-treemenu li a:hover,
+div.solid-1 ul.menu-treemenu li a.current,
+div.lightbox-1 ul.menu-treemenu li a:hover,
+div.lightbox-1 ul.menu-treemenu li a.current {
+	background-color: #DFC0B5;
+}
+div.solid-2 ul.menu-treemenu li a:hover,
+div.solid-2 ul.menu-treemenu li a.current,
+div.lightbox-2 ul.menu-treemenu li a:hover,
+div.lightbox-2 ul.menu-treemenu li a.current {
+	background-color: #DBD3B9;
+}
+/* ============================== MODULE STYLES ============================== */
+/* =============== RICH BOX 1 =============== */
+div.richbox-1 div div {
+	background: #D24A17;
+}
+div.richbox-1 div div div {
+	background: url(../images/red/richbox-1.png) repeat-x left bottom;
+}
+/* =============== RICH BOX 2 =============== */
+div.richbox-2 div div {
+	background: #9E9373;
+}
+div.richbox-2 div div div {
+	background: url(../images/red/richbox-2.png) repeat-x left bottom;
+}
+/* =============== RICH BOX 3 =============== */
+div.richbox-3 div div {
+	background: #5C5743;
+}
+div.richbox-3 div div div {
+	background: url(../images/red/richbox-3.png) repeat-x left bottom;
+
+/* =============== RICH BOX 4 =============== */
+div.richbox-4 div div {
+	background: #5C5743;
+}
+div.richbox-3 div div div {
+	background: #0c6c9d;
+}
+/* =============== LIGHT BOX 1 =============== */
+div.lightbox-1 div div {
+	background-color: #EFE0DA;
+}
+/* =============== LIGHT BOX 2 =============== */
+div.lightbox-2 div div {
+	background-color: #EDE9DC;
+}
+/* =============== SOLID BOX 1 =============== */
+div.solid-1 div {
+	background: #EFE0DA;
+	border: 1px solid #E6CDC4;
+}
+div.solid-1 div div {
+	background: none;
+	border: none;
+}
+/* =============== SOLID BOX 2 =============== */
+div.solid-2 div {
+	background: #EDE9DC;
+	border: 1px solid #E2DCC7;
+}
+div.solid-2 div div {
+	background: none;
+	border: none;
+}
+/* =============== SEARCH BOX =============== */
+#jsn-pinset div.search {
+	border: 1px solid #978D6C;
+	background-color: #F2F1EC;
+}
+#jsn-pinset div.search input.button {
+	background: url(../images/red/search-bg.png) left no-repeat;
+}
+body.jsn-direction-rtl #jsn-pinset div.search input.button {
+	background: url(../images/red/search-bg-rtl.png) right no-repeat;
+}
+/* ============================== LINKS STYLE ============================== */
+a,
+span.pathway span.current,
+div.module-plain ul.menu-sidemenu li a,
+div.module-plain ul.menu-treemenu li a {
+	color: #069;
+}
+div.duohead-1 h3.jsn-moduletitle {
+	color: #D24A17;
+}
+div.duohead-2 h3.jsn-moduletitle {
+	color: #A19675;
+}
+/* =============== READ MORE LINK =============== */
+a.readon {
+	background: url(../images/red/button-bg-l.png) left no-repeat;
+}
+a.readon span {
+	background: url(../images/red/button-bg-r.png) right no-repeat;
+}
