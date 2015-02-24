@@ -80,6 +80,10 @@ defined('_JEXEC') or die;
     <div class="t3-sidebar t3-sidebar-2 span13" <?php echo $this->getData ($layout, $col++) ?>>
       <jdoc:include type="modules" name="<?php $this->_p($sidebar2) ?>" style="T3Xhtml" />
     </div>
+
+    <div class="container">
+    <?php $this->spotlight ('spotlight-3', 'position-16, position-17, position-18, position-19') ?>
+  </div>
     <!-- //SIDEBAR 2 -->
     <?php endif ?>
 

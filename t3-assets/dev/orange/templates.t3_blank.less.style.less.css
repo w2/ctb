@@ -4,7 +4,6 @@
 }
 .logo {
   float: left;
-  padding-top:35px;
 }
 .logo a {
   display: inline-block;
@@ -61,8 +60,7 @@
 }
 .t3-sl {
   padding-bottom: 60px;
-  padding-top: 10px;
-  margin-left:120px
+  padding-top: 60px;
 }
 .t3-mainbody {
   padding-bottom: 40px;

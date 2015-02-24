@@ -3124,3 +3124,95 @@ table.adminlist th a {
   border-top: 1px solid #ff941a;
 }
 
+.esp01
+{
+  margin-left:200px;
+ 
+}
+.esp02
+{
+  margin-left: 10px;
+}
+.esp03
+{
+  *margin-left:90px;
+}
+.busca
+{
+  width:300px;
+  margin-left:-10px;
+  
+}
+
+#teste
+{
+ background-color:#FFFFFF;
+  width:1200px;
+  margin-left:70px;
+  align-content:center;
+}
+
+#teste2
+{
+background-image: url("http://localhost/ctb/images/bg.png");  
+height: 400px;
+}
+
+#last_news_top 
+{
+  color: #14435d;
+  width: 250px;
+  position: relative;
+  padding: 0px;
+  border-radius:7px;
+  font-size:15px;
+}
+
+#last_news_bottom
+{
+  background: #ddeef8;
+  position: relative;
+  width: 230px;
+  margin: 0px;
+  border-radius:7px;
+}
+
+#tremsuburbio
+{
+  background: #ddeef8;
+  position: relative;
+  width:250px;
+  border-radius:7px;
+}
+
+#featuredarticles
+{
+  background:#ed1b34;
+  width:300px;
+  color:white;
+  border-radius:7px;
+}
+
+#icone1
+{
+  margin-top:-20px;
+  line-height: 15.8079996109009px;
+}
+#icone2
+{
+  margin-top:-30px;
+  line-height: 15.8079996109009px;
+}
+.icone4
+{
+  margin-left:20px
+}
+
+.pollc
+{
+  width:200px;
+}
+#fimg
+{
+  border-radius:7px;
+}

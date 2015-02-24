@@ -40,11 +40,14 @@ $logoimgsm = ($logotype == 'image' && $this->params->get('enable_logoimage_sm', 
 
     <?php if($this->countModules('head-search or languageswitcherload')): ?>
     <div class="span4 clearfix">  
+     <div id="icones_header_esquerda"> 
       <?php if ($this->countModules('head-search')) : ?>
       <!-- HEAD SEARCH -->
+    
       <div class="head-search<?php $this->_c('head-search')?>">     
         <jdoc:include type="modules" name="<?php $this->_p('head-search') ?>" style="raw" />
       </div>
+
       <!-- //HEAD SEARCH -->
       <?php endif ?>
 
@@ -59,10 +62,14 @@ $logoimgsm = ($logotype == 'image' && $this->params->get('enable_logoimage_sm', 
       <?php endif ?>
     </div>
     <?php endif ?>
-
+    </div>
 
   </div>
 
+ <div id="banner_topo">     
+        <jdoc:include type="modules" name="position-14" style="raw" />
+  </div>
+    
 
     
 </header>

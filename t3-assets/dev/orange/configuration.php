@@ -262,4 +262,5 @@ height: 390px;
 #featuredarticles
 {
   background:red;
+  border-radius:7px;
 }

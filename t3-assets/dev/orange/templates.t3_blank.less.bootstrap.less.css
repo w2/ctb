@@ -37,7 +37,6 @@ hgroup,
 nav,
 section {
   display: block;
-  width:900px
 }
 audio,
 canvas,
@@ -83,6 +82,7 @@ img {
   width: auto \9;
   
   height: auto;
+  vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
@@ -213,12 +213,7 @@ textarea {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 1200px;
-}
-.span13
-{
-  width:auto;
-  margin-left:240px;
+  width: 932px;
 }
 .span12 {
   width: 932px;
@@ -230,7 +225,7 @@ textarea {
   width: 770px;
 }
 .span9 {
-  width: 700px;
+  width: 689px;
 }
 .span8 {
   width: 608px;
@@ -246,11 +241,9 @@ textarea {
 }
 .span4 {
   width: 284px;
-  margin-left:300px
 }
 .span3 {
   width: 203px;
-  
 }
 .span2 {
   width: 122px;
@@ -479,7 +472,7 @@ textarea {
 
 .container {
   margin-right: auto;
-  margin-left: 30px;
+  margin-left: auto;
   *zoom: 1;
 }
 .container:before,
