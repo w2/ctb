@@ -250,7 +250,8 @@ width:1200px;
   width: 300px;
 }
 .span2 {
-  width: 122px;
+    width: 130px;
+    margin: 30px;
 }
 .span1 {
   width: 41px;

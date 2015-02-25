@@ -3200,9 +3200,9 @@ width:1100px;
 {
   margin-left:250px;
 }
-#icone4
+#iconecbtu
 {
-  
+  margin-top:20px;
 }
 #banner_topo
 {
@@ -3260,4 +3260,8 @@ float: left;
 
 .fifth-effect:hover img {
    opacity:1;
+}
+.icone1
+{
+  margin-left:60px;
 }
