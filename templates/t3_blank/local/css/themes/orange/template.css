@@ -3238,29 +3238,26 @@ float: left;
   margin-left:-80px;
 }
 
-.second-effect .mask {
-   opacity: 0;
-   overflow:visible;
-   border:0px solid rgba(0,0,0,0.7);
-   box-sizing:border-box;
-   transition: all 0.4s ease-in-out;
+.fifth-effect img {
+   opacity:0.2;
+   transition: all 0.3s ease-in;
 }
 
-.second-effect a.info {
-   position:relative;
-   top:-10px;
-   opacity:0;
-   transform:scale(0,0);
-   transition: transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
-}
-
-.second-effect:hover .mask {
-   opacity: 1;
-   border:100px solid rgba(0,0,0,0.7);
-}
-
-.second-effect:hover a.info {
+.fifth-effect .mask {
+   cursor:pointer;
    opacity:1;
-   transform:scale(1,1);
-   transition-delay:0.3s;
+   visibility:visible;
+   
+   box-sizing:border-box;
+   transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+}
+
+.fifth-effect:hover .mask {
+   border:0px double rgba(0,0,0,0.7);
+   opacity:0;
+   visibility:hidden;
+}
+
+.fifth-effect:hover img {
+   opacity:1;
 }
