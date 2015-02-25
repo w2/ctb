@@ -12,6 +12,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 ?>
 <?php if ($youtube_id) { ?>
 
+	<div id="youtube-position">
 	<div class="sp_simple_youtube <?php echo ( $responsive ) ? 'sp_simple_youtube_responsive' : ''; ?>" data-width="<?php echo $width; ?>" data-height="<?php echo $height; ?>">
 		<?php if($responsive){ ?>
 			<iframe title="Simple youtube module by JoomShaper.com" id="sp-simple-youtube<?php echo $uniqid ?>" src="http://www.youtube.com/embed/<?php echo $youtube_id ?>?wmode=transparent" frameborder="0"></iframe>
@@ -19,6 +20,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 			<iframe title="Simple youtube module by JoomShaper.com" id="sp-simple-youtube<?php echo $uniqid ?>" src="http://www.youtube.com/embed/<?php echo $youtube_id ?>?wmode=transparent" width="<?php echo $width; ?>" height="<?php echo $height; ?>" frameborder="0"></iframe>
 		<?php } ?>
 	</div>
+</div>
 
 <?php } else { ?>
 	<p>Please enter youtube id.</p>

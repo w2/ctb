@@ -26,7 +26,7 @@ $document->addStyleDeclaration("div#poll_loading_".$poll->id." {
 ");
 ?>
 
-<div class="poll<?php echo $params->get('moduleclass_sfx'); ?>" style="border:none; padding:1px;">
+<div id ="polldiv" class="poll<?php echo $params->get('moduleclass_sfx'); ?>" style="border:none; padding:1px;">
 
 <?php if ($params->get('show_poll_title')) : ?>
     <h4><?php echo $poll->title; ?></h4>

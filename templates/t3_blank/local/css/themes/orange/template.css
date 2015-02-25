@@ -3270,3 +3270,14 @@ float: left;
   margin-top:-30px;
   margin-left:-120px;
 }
+.youtube-position
+{
+  margin-top:-450px;
+}
+#polldiv
+{
+  background: #e4193a;
+  border-radius:7px;
+  color:white;
+  
+}
