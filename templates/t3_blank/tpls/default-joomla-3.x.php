@@ -34,8 +34,9 @@ defined('_JEXEC') or die;
      <div id="headinf"></div>
 
     <?php $this->loadBlock ('mainnav') ?> 
-
+     
     <?php $this->loadBlock ('spotlight-1') ?> 
+  <div id="headsup"></div>
 
     <?php $this->loadBlock ('mainbody') ?>
     <?php $this->loadBlock ('spotlight-2') ?>

@@ -517,11 +517,10 @@ hr.hr-condensed {
   font-size:12px;
 }
 
-#banner
+.espacamentoFeatures
 {
-
+  
 }
-
 .pollc
 {
   width:250px;
@@ -3221,6 +3220,13 @@ width:1100px;
 #headinf
 {
   background-image: url("http://localhost/ctb/images/bgheadinf.png");
+  height:40px;
+  
+}
+
+#headsupnav
+{
+  background-image: url("http://localhost/ctb/images/bgheadsupnav.png");
   height:40px;
   
 }
