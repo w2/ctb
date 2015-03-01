@@ -3329,7 +3329,9 @@ float: left;
   background-color:#FFFFFF;
   width:1200px;
   margin-left:90px;
-  float:right;
+  float:left;
+  margin-bottom:70px;
+  margin-top:-50px;
 }
 #navegacao-rodape {}
 #navegacao-rodape li {display: block;float: left;margin:22px 0 12px 15px;width: 181px;} /* colunas principais */
