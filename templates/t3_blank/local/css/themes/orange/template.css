@@ -3132,7 +3132,6 @@ width:1100px;
   color: #e6e6e6;
 }
 .t3-footnav {
-  padding: 60px 0 40px;
   *zoom: 1;
 }
 .t3-footnav:before,
@@ -3325,4 +3324,8 @@ float: left;
 {
   background-color:#FFFFFF;
 }
-
+#mapafooter
+{
+  background-color:#FFFFFF;
+  margin-left:200px;
+}

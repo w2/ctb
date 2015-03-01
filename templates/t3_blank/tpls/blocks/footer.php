@@ -9,12 +9,13 @@ defined('_JEXEC') or die;
 ?>
 
 <!-- FOOTER -->
+<div id="mapafooter">
+    <?php $this->spotlight ('footnav', 'footer-1, footer-2, footer-3, footer-4, footer-5, footer-6') ?>
+  </div>
 <footer id="t3-footer" class="wrap t3-footer">
 
   <!-- FOOT NAVIGATION -->
-  <div class="container">
-    <?php $this->spotlight ('footnav', 'footer-1, footer-2, footer-3, footer-4, footer-5, footer-6') ?>
-  </div>
+  
   <!-- //FOOT NAVIGATION -->
 
   <section class="t3-copyright">
