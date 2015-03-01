@@ -465,7 +465,7 @@ hr.hr-condensed {
   margin-left:90px;
 }
 #teste {
-  background-color: #FFFFFF;
+  background-color: #F0F0F0;
   align-content: center;
 }
 #teste2 {
@@ -517,10 +517,16 @@ hr.hr-condensed {
   font-size:12px;
 }
 
-.espacamentoFeatures
+.espacamentoFeature2
 {
-  
+  margin-left:20px;
 }
+
+.espacamentoFeature3
+{
+  margin-left:25px;
+}
+
 .pollc
 {
   width:250px;
@@ -3213,8 +3219,8 @@ width:1100px;
 }
 #headsup
 {
-  background-image: url("http://localhost/ctb/images/bgheadsup.png");
-  height:40px;
+  background-image: url("http://localhost/ctb/images/imgtopo.jpg");
+  height:10px;
 }
 
 #headinf
@@ -3226,7 +3232,7 @@ width:1100px;
 
 #headsupnav
 {
-  background-image: url("http://localhost/ctb/images/bgheadsupnav.png");
+  background-image: url("http://localhost/ctb/images/bgheadsup.png");
   height:40px;
   
 }
@@ -3276,6 +3282,16 @@ float: left;
   margin-top:-30px;
   margin-left:-120px;
 }
+.t3-spotlight-2
+{
+  background-color:#FFFFFF;
+  margin-left:-135px;
+}
+.t3-siderbar-2
+{
+  width:auto;
+}
+
 .youtube-position
 {
   margin-top:-450px;
@@ -3304,5 +3320,9 @@ float: left;
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+#alinhamento_main
+{
+  background-color:#FFFFFF;
 }
 

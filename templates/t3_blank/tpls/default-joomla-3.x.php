@@ -36,7 +36,7 @@ defined('_JEXEC') or die;
     <?php $this->loadBlock ('mainnav') ?> 
      
     <?php $this->loadBlock ('spotlight-1') ?> 
-  <div id="headsup"></div>
+  <div id="headsupnav"></div>
 
     <?php $this->loadBlock ('mainbody') ?>
     <?php $this->loadBlock ('spotlight-2') ?>
