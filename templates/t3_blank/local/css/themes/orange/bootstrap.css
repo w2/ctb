@@ -220,7 +220,8 @@ width:1200px;
   margin-left: 25px;
 }
 .span12 {
-  width: 932px;
+  width: auto;
+ 
 }
 .span11 {
   width: 851px;

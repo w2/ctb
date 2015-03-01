@@ -1985,6 +1985,7 @@ input.invalid {
   -moz-box-shadow: none;
   box-shadow: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  margin-left:70px;
 }
 .t3-mainnav .navbar .nav {
   margin: 0;
@@ -3183,8 +3184,8 @@ width:1100px;
 }
 
 .t3-footer {
-  background: #f80;
-  color: #fff;
+  background: #ffffff;
+  color: black;
 }
 .t3-footer a {
   color: #ffffff;
@@ -3198,7 +3199,7 @@ width:1100px;
   color: #fff;
 }
 .t3-copyright {
-  border-top: 1px solid #ff941a;
+  border-top: 1px solid #ffffff;
 }
 #icones_header_esquerda
 {
@@ -3331,7 +3332,7 @@ float: left;
   margin-left:90px;
   float:left;
   margin-bottom:70px;
-  margin-top:-50px;
+
 }
 #navegacao-rodape {}
 #navegacao-rodape li {display: block;float: left;margin:22px 0 12px 15px;width: 181px;} /* colunas principais */
@@ -3340,3 +3341,9 @@ float: left;
 #navegacao-rodape li a {color:#EC1213;font-size:1.333em;font-weight: bold;display: block;margin-bottom: 20px;}
 #navegacao-rodape li li a {color:#666;font-size:1em;font-weight:normal;margin:0;}
 #navegacao-rodape li li ul {display: none;} /* esconde demais niveis */
+
+#bgfooter
+{
+  background-image: url("http://localhost/ctb/images/bg-footer.jpg");
+  height:10px;
+}
