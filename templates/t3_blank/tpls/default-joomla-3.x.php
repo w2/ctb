@@ -41,8 +41,11 @@ defined('_JEXEC') or die;
     <?php $this->loadBlock ('mainbody') ?>
     <?php $this->loadBlock ('spotlight-2') ?>
     
-    <?php //$this->loadBlock ('navhelper') ?>
-    <?php $this->loadBlock ('footer') ?>
+    <div id="mapafooter">
+       <jdoc:include type="modules" name="footer-0" style="raw" />
+    </div>
+
+    <?php $this->loadBlock ('footer') ?> 
     </div>
   
   </body>

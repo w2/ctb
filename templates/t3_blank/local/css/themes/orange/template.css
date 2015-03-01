@@ -3327,5 +3327,14 @@ float: left;
 #mapafooter
 {
   background-color:#FFFFFF;
-  margin-left:200px;
+  width:1200px;
+  margin-left:90px;
+  float:right;
 }
+#navegacao-rodape {}
+#navegacao-rodape li {display: block;float: left;margin:22px 0 12px 15px;width: 181px;} /* colunas principais */
+#navegacao-rodape li.first {margin-left:0;}
+#navegacao-rodape li li {clear: both;margin:0 0 10px 0;}
+#navegacao-rodape li a {color:#EC1213;font-size:1.333em;font-weight: bold;display: block;margin-bottom: 20px;}
+#navegacao-rodape li li a {color:#666;font-size:1em;font-weight:normal;margin:0;}
+#navegacao-rodape li li ul {display: none;} /* esconde demais niveis */
