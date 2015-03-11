@@ -26,12 +26,12 @@ $document->addStyleDeclaration("div#poll_loading_".$poll->id." {
 ");
 ?>
 
-<div id ="polldiv" class="poll<?php echo $params->get('moduleclass_sfx'); ?>" style="border:none; padding:1px;">
+<div  class="poll<?php echo $params->get('moduleclass_sfx'); ?>" style="border:none; padding:1px;">
 
 <?php if ($params->get('show_poll_title')) : ?>
     <h4><?php echo $poll->title; ?></h4>
 <?php endif; ?>
-
+<div id ="polldiv">
 <div id="polldiv_<?php echo $poll->id;?>">
 
 <?php if ($display_poll) { ?>
@@ -177,6 +177,7 @@ $document->addScriptDeclaration($js);
  } ?>
 
 <!-- End of #polldiv -->
+</div>
 </div>
 <?php if (($params->get('show_view_details')) || ($params->get('rel_article_window'))) { ?>
 <div id="poll_links" style="padding-top:5px; ">

@@ -630,6 +630,7 @@ h6 {
   line-height: 1;
   color: #444;
   text-rendering: optimizelegibility;
+  color: #14435d;
 }
 h1 small,
 h2 small,
@@ -2127,7 +2128,7 @@ input.invalid {
 }
 .module-title {
   background: inherit;
-  color: #444;
+  color: #14435d;;
   line-height: 30px;
   margin: 0 0 10px 0;
   padding: 0;
