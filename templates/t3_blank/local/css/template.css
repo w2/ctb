@@ -517,10 +517,16 @@ hr.hr-condensed {
   font-size:12px;
 }
 
-.espacamentoFeatures
+.espacamentoFeature2
 {
-  
+  margin-left:20px;
 }
+
+.espacamentoFeature3
+{
+  margin-left:25px;
+}
+
 .pollc
 {
   width:250px;
@@ -1979,6 +1985,7 @@ input.invalid {
   -moz-box-shadow: none;
   box-shadow: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  margin-left:70px;
 }
 .t3-mainnav .navbar .nav {
   margin: 0;
@@ -3126,7 +3133,6 @@ width:1100px;
   color: #e6e6e6;
 }
 .t3-footnav {
-  padding: 60px 0 40px;
   *zoom: 1;
 }
 .t3-footnav:before,
@@ -3178,8 +3184,8 @@ width:1100px;
 }
 
 .t3-footer {
-  background: #f80;
-  color: #fff;
+  background: #ffffff;
+  color: black;
 }
 .t3-footer a {
   color: #ffffff;
@@ -3193,7 +3199,7 @@ width:1100px;
   color: #fff;
 }
 .t3-copyright {
-  border-top: 1px solid #ff941a;
+  border-top: 1px solid #ffffff;
 }
 #icones_header_esquerda
 {
@@ -3213,8 +3219,8 @@ width:1100px;
 }
 #headsup
 {
-  background-image: url("http://localhost/ctb/images/bgheadsup.png");
-  height:40px;
+  background-image: url("http://localhost/ctb/images/imgtopo.jpg");
+  height:10px;
 }
 
 #headinf
@@ -3226,7 +3232,7 @@ width:1100px;
 
 #headsupnav
 {
-  background-image: url("http://localhost/ctb/images/bgheadsupnav.png");
+  background-image: url("http://localhost/ctb/images/bgheadsup.png");
   height:40px;
   
 }
@@ -3319,4 +3325,44 @@ float: left;
 {
   background-color:#FFFFFF;
 }
+#mapafooter
+{
+  background-color:#FFFFFF;
+  width:1200px;
+  margin-left:90px;
+  float:left;
+  margin-bottom:70px;
 
+}
+#navegacao-rodape {}
+#navegacao-rodape li {display: block;float: left;margin:22px 0 12px 15px;width: 181px;} /* colunas principais */
+#navegacao-rodape li.first {margin-left:0;}
+#navegacao-rodape li li {clear: both;margin:0 0 10px 0;}
+#navegacao-rodape li a {color:#EC1213;font-size:1.333em;font-weight: bold;display: block;margin-bottom: 20px;}
+#navegacao-rodape li li a {color:#666;font-size:1em;font-weight:normal;margin:0;}
+#navegacao-rodape li li ul {display: none;} /* esconde demais niveis */
+
+#bgfooter
+{
+  background-image: url("http://localhost/ctb/images/bg-footer.jpg");
+  height:10px;
+}
+#pactovida
+{
+  margin-left:900px;
+  width:200px;
+  height:200px;
+}
+.enderecofooter
+{
+  margin-left:350px;
+}
+
+#logofooter
+{
+  
+}
+.custom
+{
+  margin-top:-90px;
+}
