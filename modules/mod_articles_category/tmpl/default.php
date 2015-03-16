@@ -87,7 +87,10 @@ defined('_JEXEC') or die;
 		<?php if($contador <= 8): ?>
 		<li>
 			<?php if ($params->get('link_titles') == 1) : ?>
-				<a class="mod-articles-category-title <?php echo $item->active; ?>" href="<?php echo $item->link; ?>">
+				<a class="mod-articles-category-title <?php echo $item->active; ?>" href="<?php echo $item->link; ?>" align>
+				<?php $valores = split('"', $item->images);
+				$correcao = split("\/", $valores[3]);
+				echo "<img src='images/$correcao[1]' height='50px' width='50px' />"; ?>
 				<?php echo date('d/m/Y', strtotime($item->created)). " -";  ?>
 				<?php echo $item->title; ?> 
 				</a>
