@@ -483,7 +483,7 @@ hr.hr-condensed {
 #last_news_bottom {
   background: #22668c;
   position: relative;
-  width: 250px;
+  width: 300px;
   margin: 0px;
   border-radius: 7px;
 }
@@ -3325,6 +3325,7 @@ float: left;
 #alinhamento_main
 {
   background-color:#FFFFFF;
+  width:1250px;
 }
 #mapafooter
 {
