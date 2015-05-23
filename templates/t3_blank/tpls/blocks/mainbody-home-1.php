@@ -14,6 +14,7 @@ defined('_JEXEC') or die;
   <!-- HOME SL 1 -->
   <div class="wrap t3-sl t3-sl-1<?php $this->_c('home-1')?>">
     <jdoc:include type="modules" name="<?php $this->_p('home-1') ?>" style="raw" />
+    <jdoc:include type="modules" name="<?php $this->_p('home-2') ?>" style="raw" />
   </div>
   
   <!-- //HOME SL 1 -->

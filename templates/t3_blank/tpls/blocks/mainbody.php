@@ -61,6 +61,7 @@ defined('_JEXEC') or die;
     <div id="t3-content" class="t3-content <?php echo $this->getClass($layout, $col) ?>" <?php echo $this->getData ($layout, $col++) ?>>
       
       <jdoc:include type="modules" name="<?php $this->_p('home-1') ?>" style="raw" />
+ 
       <jdoc:include type="message" />
       <jdoc:include type="component" />
 
@@ -72,6 +73,7 @@ defined('_JEXEC') or die;
     <div class="t3-sidebar t3-sidebar-1 <?php echo $this->getClass($layout, $col) ?><?php $this->_c($sidebar1)?>" <?php echo $this->getData ($layout, $col++) ?>>
       <jdoc:include type="modules" name="<?php $this->_p($sidebar1) ?>" style="T3Xhtml" />
     </div>
+  
     <!-- //SIDEBAR 1 -->
     <?php endif ?>
     
