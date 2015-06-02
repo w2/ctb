@@ -282,3 +282,56 @@ div.ja-innerdiv h4 {
 a.ja-icon-video {
 	right: 25px;
 }
+
+#featuredarticles {
+  background: #e4193a;
+  width:300px;
+  border-radius:7px;
+  color:white;
+  font-size:12px;
+ 
+}
+
+#featuredarticles2 {
+  background: #e4193a;
+  width:300px;
+  border-radius:7px;
+  color:white;
+  font-size:12px;
+ 
+  margin-left:400px;
+
+}
+
+#featuredarticles3 {
+  background: #e4193a;
+  width:300px;
+  border-radius:7px;
+  color:white;
+  font-size:12px;
+  margin-left:780px;
+}
+/*
+.espacamentoFeature2
+{
+  margin-left:20px;
+}
+
+.espacamentoFeature3
+{
+  margin-left:25px;
+}
+*/
+
+#ft1
+{
+	overflow:visible;
+	margin-top:-310px;
+}
+#footer
+{
+	float: left;
+	width:181px;
+	display:block;
+	margin: 22px 0px 12px 15px;
+}
